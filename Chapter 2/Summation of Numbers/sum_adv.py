@@ -1,0 +1,14 @@
+#PRogram to calculate the sum using n-1 iterations for n numbers.
+
+def calc(l):
+    sum=l[0]
+    for i in range(1,len(l)):
+        sum=sum+l[i]
+        
+
+    print sum
+
+l=[1,2,3,4,5]
+calc(l)
+
+4

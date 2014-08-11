@@ -1,0 +1,13 @@
+#Program to calculate the average of numbers
+
+def average(lis):
+    sum = 0
+    for i in lis:
+        sum = sum + i
+
+    avg= sum/len(lis)
+    print "The average of the numbers is - " + str(avg)
+
+i = [1,2,3,4,5,6,7,8]
+average(i)
+

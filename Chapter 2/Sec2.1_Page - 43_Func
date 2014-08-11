@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+#Given Two Variables, a and b, exchange the values assigned to them.
+
+def swap(val1, val2)
+	temp=val1
+	val1=val2
+	val2=temp
+	return val1, val2
+
+swap(2,4)
